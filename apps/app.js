@@ -26,10 +26,12 @@ function showResults(results) {
 
 	var html = "";
 	$.each(results, function(index, value) {
-		console.log(value);
+		console.log(value.id);
 		html += '<div class="moviePair"><h1 id="title">' + 
 				value.snippet.title + 
-				'</h1><a href=""><img class="poster" src="' + 
+				'</h1><a href="https://www.youtube.com/watch?v=' + 
+				value.id.videoId + 
+				 '"><img class="poster" src="' + 
 				value.snippet.thumbnails.high.url + 
 				'"></a></div>';
 		$('#search-results').html(html);

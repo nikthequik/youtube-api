@@ -1,4 +1,42 @@
+body {
+	background-color: lightgreen;
+}
+
+header {
+	border: 4px solid black;
+    border-radius: 3.5em;
+}
+
+#intro {
+	text-align: center;
+    font-size: 2.8em;
+    margin: 0.4em;
+    letter-spacing: 0.5em;
+    font-weight: 900;
+
+}
+
+#search-term {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
 #title {
 	font-weight: bold;
-	font-family: Impact, sans-serif;
+	font-family: Helvetica, sans-serif;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.poster {
+	margin: 0 auto;
+	display: block;
+}
+
+.moviePair {
+	border: 5px solid black;
+    padding: 1em;
+    max-width: 70%;
+    background-color: goldenrod;
+    margin: 1em auto;
 }
