@@ -12,7 +12,8 @@ function getRequest(searchTerm) {
 		q : searchTerm,
 		r : 'json',
 		part: 'snippet, id',
-		key: 'AIzaSyD34Bt602PUsjXxAvajMytwWUkqJnd_xto',
+		//Get key from dev
+		key: '',
 		maxResults: 15
 	};
 	url = 'https://www.googleapis.com/youtube/v3/search';
